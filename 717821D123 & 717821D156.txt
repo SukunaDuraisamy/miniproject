@@ -1,0 +1,13 @@
+create database student;
+use student;
+
+create table CollegeEnrollment (email varchar(30),fname varchar(30),lname varchar(30),Sem int);
+
+insert into CollegeEnrollment values("suku@gmail.com ", "Suku","Duraisamy",4);
+insert into CollegeEnrollment values("vign@gmail.com ", "Vignesh","Rai",1);
+insert into CollegeEnrollment values("akshay@gmail.com ", "Akshay","Raja",6);
+insert into CollegeEnrollment values("priya@gmail.com ", "Priya","Madhan",3);
+insert into CollegeEnrollment values("selvi35@gmail.com ", "Selvi","Ramasamy",8);
+insert into CollegeEnrollment values("abi123@gmail.com ", "Abi","Raju",7);
+insert into CollegeEnrollment values("dhivi@gmail.com ", "Dhiviya","Vasanth",4);
+insert into CollegeEnrollment values("sowmi@gmail.com ", "Sowmi","Kaliyannan",2);
